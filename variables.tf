@@ -16,7 +16,6 @@ variable "resource_tags" {
   description = "Resource tag identification."
   nullable    = false
   default = {
-    owner    = "John Ajera"
     use_case = "alb_blue_green"
   }
 }
